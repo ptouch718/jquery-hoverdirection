@@ -46,8 +46,8 @@ This comes in handy for removing classes after the completion of @key-frame ania
 ```
 $(function () {
 	$('selector').on('webkitAnimationEnd mozAnimationEnd animationEnd', function () {
-    $(this).filter('[class*="-leave-"]').hoverDirection('removeClass');
-  });
+        $(this).filter('[class*="-leave-"]').hoverDirection('removeClass');
+    });
 });
 ```
 
