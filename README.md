@@ -1,11 +1,26 @@
 # jQuery Hover Direction
 A simple plugin to add CSS classes based on direction of element entrance or exit.
 
+
 ## Usage
 ```
 $(function () {
-	$('selector').hoverDirection(options);
+	$('selector').hoverDirection({
+		cssPrefix : 'hover'
+	});
 });
+```
+The folling CSS classes can then be used for styling
+
+```
+.<cssPrefix>-enter-top    {}
+.<cssPrefix>-leave-top    {}
+.<cssPrefix>-enter-right  {}
+.<cssPrefix>-leave-right  {}
+.<cssPrefix>-enter-bottom {}
+.<cssPrefix>-leave-bottom {}
+.<cssPrefix>-enter-left   {}
+.<cssPrefix>-leave-left   {}
 ```
 
 ## Options
