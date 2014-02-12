@@ -21,7 +21,7 @@
       // Example of calling removeClass method after a CSS animation
       $('.box .inner').on('webkitAnimationEnd mozAnimationEnd AnimationEnd', function (event) {
         var $box = $(this).parent();
-        $box.filter('[class*="leave"]').hoverDirection('removeClass');
+        $box.filter('[class*="-leave-"]').hoverDirection('removeClass');
       });
     });
   </script>
