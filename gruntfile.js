@@ -3,9 +3,9 @@ module.exports = function (grunt) {
   grunt.initConfig({
     jshint : {
       options : {
-        curly: true,
         eqeqeq: true,
         eqnull: true,
+        unused: true,
         browser: true,
         globals: {
           jQuery: true,
