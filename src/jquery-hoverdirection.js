@@ -32,8 +32,7 @@
         eventDir    = Math.round((((Math.atan2(y, x) * (180 / Math.PI)) + 180 ) / 90 ) + 3 )  % 4,
         prefixClass = _settings.cssPrefix,
         typeClass   = (event.type === 'mouseleave') ? 'leave' : 'enter',
-        dirClass    = _convertFaceToDir(eventDir),
-        prefixRegex = _stylePrefixRegex;
+        dirClass    = _convertFaceToDir(eventDir);
 
     return prefixClass + '-' + typeClass + '-' + dirClass;
   }
