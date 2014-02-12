@@ -45,7 +45,7 @@ This come in handy for removing classes after the completion of @key-frame aniam
 
 ```
 $(function () {
-	$('selector').on('webkitAnimationEnd mozAnimationEnd AnimationEnd', function () {
+	$('selector').on('webkitAnimationEnd mozAnimationEnd animationEnd', function () {
     $(this).filter('[class*="leave"]').hoverDirection('removeClass');
   });
 });
