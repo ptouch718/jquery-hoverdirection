@@ -41,7 +41,7 @@ $(function () {
 });
 ```
 
-This come in handy for removing classes after the completion of @key-frame aniamtions:
+This comes in handy for removing classes after the completion of @key-frame aniamtions:
 
 ```
 $(function () {
