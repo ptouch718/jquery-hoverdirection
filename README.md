@@ -10,7 +10,7 @@ $(function () {
 	});
 });
 ```
-The folling CSS classes can then be used for styling
+The folling CSS classes can then be used for styling:
 
 ```
 .<cssPrefix>-enter-top    {}
@@ -33,7 +33,7 @@ The folling CSS classes can then be used for styling
 ## Methods
 
 ### removeClass
-Removes all directional classes from selector
+Removes all directional classes from selector.
 
 ```
 $(function () {
@@ -41,8 +41,18 @@ $(function () {
 });
 ```
 
+This come in handy for removing classes after the completion of @key-frame aniamtions:
+
+```
+$(function () {
+	$('selector').on('webkitAnimationEnd mozAnimationEnd AnimationEnd', function () {
+    $(this).filter('[class*="leave"]').hoverDirection('removeClass');
+  });
+});
+```
+
 ### destroy
-Unbinds all plugin methods from selector
+Unbinds all plugin methods from selector.
 
 ```
 $(function () {
