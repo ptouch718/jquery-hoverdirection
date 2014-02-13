@@ -10,7 +10,7 @@ $(function () {
 	});
 });
 ```
-The folling CSS classes will be available for styling:
+The following CSS classes will be available for styling:
 
 ```
 .<cssPrefix>-enter-top    {}
