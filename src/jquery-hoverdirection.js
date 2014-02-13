@@ -68,6 +68,7 @@
 
     removeClass : function () {
       _removeClass.apply(this);
+       return this;
     },
 
     destroy : function () {
