@@ -1,6 +1,6 @@
 # jQuery Hover Direction
 A simple plugin to add CSS classes based on direction of element entrance or exit.
-
+[Example](http://htmlpreview.github.io/?https://raw.github.com/ptouch718/jquery-hoverdirection/master/example/index.html)
 
 ## Usage
 ```
