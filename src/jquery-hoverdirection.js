@@ -4,7 +4,7 @@
       _defaults = {
         cssPrefix : 'hover'
       },
-      _settings,
+      _settings = {},
       _stylePrefixRegex; 
       
   // -- Private ----------------------------------------------------
