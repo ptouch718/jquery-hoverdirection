@@ -1,7 +1,7 @@
 {
   "name": "jquery-hoverdirection",
   "title": "jQuery Hover Direction",
-  "description": "A simple plugin to add CSS classes based on direction of element entrance or exit.",
+  "description": "A jQuery plugin to add CSS classes based on direction of mouse entrance or exit of an element.",
   "version": "0.1.0",
   "homepage": "https://github.com/ptouch718/jquery-hoverdirection",
   "author": {
