@@ -3,15 +3,24 @@ body {
   margin: 0;
   padding: 0;
 }
-.box {
-  background: #EEE;
-  height: 300px;
+.wrapper {
+  height: 310px;
   left: 50%;
   margin: -150px 0 0 -150px;
   overflow: hidden;
   position: absolute;
   top: 50%;
-  width: 300px;
+  width: 310px;
+}
+.box {
+  background: #EEE;
+  cursor: pointer;
+  float: left;
+  height: 145px;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  position: relative;
+  width: 145px;
 }
 .inner {
   background: #CCC;
