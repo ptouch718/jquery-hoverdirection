@@ -1,9 +1,30 @@
 {
   "name": "jquery-hoverdirection",
-  "version": "1.0.0",
+  "title": "jQuery Hover Direction",
+  "description": "A simple plugin to add CSS classes based on direction of element entrance or exit.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ptouch718/jquery-hoverdirection",
+  "author": {
+    "name": "Powell May",
+    "email": "powell.may@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ptouch718/jquery-hoverdirection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptouch718/jquery-hoverdirection/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ptouch718/jquery-hoverdirection/blob/master/MIT-LICENSE.txt"
+    }
+  ],
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-jshint": "~0.8.0"
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0"
   }
 }
